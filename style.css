@@ -1,0 +1,14 @@
+:root {
+  color-scheme: light;
+  background: #acb0ae;
+  color: #9a590a;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+    margin: 0;
+}
+
+.container div:hover, .services div:hover {
+  background-color: rgb(210, 166, 70);
+}
