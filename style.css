@@ -7,8 +7,30 @@
 body {
   font-family: 'Times New Roman', serif;
     margin: 0;
+    color : #9a590a;
 }
 
-.container div:hover, .services div:hover {
-  background-color: rgb(210, 166, 70);
+/* Flexbox Header */
+header {
+    background: var(--primary-color);
+    color: rgb(231, 72, 72);
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(223, 20, 20);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(rgb(76, 63, 63));
+}
+
+.service:hover {
+    background-color: azure;
 }
