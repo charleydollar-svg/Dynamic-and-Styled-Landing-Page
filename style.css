@@ -31,6 +31,10 @@ nav a:hover {
   background-color: azure;
 }
 
+.service {
+    display: inline-block;
+}
+
 .service h4:hover {
     background-color: azure;
 }
